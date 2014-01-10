@@ -1,5 +1,3 @@
-let maplocalleader=","
-
 nnoremap <silent> <LocalLeader>g :set operatorfunc=<SID>GrepOperator<CR>g@
 vnoremap <silent> <LocalLeader>g :<C-U>call <SID>GrepOperator(visualmode())<CR>
 
